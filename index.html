@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salon</title>
+    <link rel="stylesheet" href="/build/css/app.css" />
+  </head>
+  <body>
+    <div class="contenedor_principal">
+      <div class="div_imagen"></div>
+
+      <div class="div_app">
+        <header class="header">
+          <h1>Salon de belleza</h1>
+        </header>
+        <nav class="tabs">
+          <button class="btn" data-paso="1">Servicios</button>
+          <button class="btn" data-paso="2">Informacion Cliente</button>
+          <button class="btn" data-paso="3">Resumen</button>
+        </nav>
+
+        <!-- inicia contenido de la aplicacion -->
+
+        <div id="paso_1" class="section">
+             <h2>Servicios</h2>
+             <p class="text-center">Elige tus servicios a continuacion</p>
+
+             <div class="listado_servicios"></div>
+        </div>
+
+        <div id="paso_2" class="section">
+            <h2>Tus datos y citas</h2>
+            <p class="text-center">Coloca tus datos y fecha de tu cita</p>
+
+            <form action="" class="formulario"> 
+                <div class="campo">
+                  <label for="nombre">Nombre</label>
+                  <input id="nombre" type="text" placeholder="Tu nombre">
+                </div>
+
+
+                <div class="campo">
+                  <label for="fecha">Fecha</label>
+                  <input id="fecha" type="date" >
+                </div>
+
+                <div class="campo">
+                  <label for="hora">Hora</label>
+                  <input id="hora" type="time" placeholder="Tu nombre">
+                </div>
+
+            </form>
+        </div>
+
+        <div id="paso_3" class="section contenido__resumen">
+            <h2>Resumen</h2>
+        </div>
+
+    <div class="paginacion">
+        <button class="btn" id="anterior">Anterior &raquo;</button>
+        <button class="btn" id="siguiente">&laquo; Siguiente</button>
+       
+    </div>
+
+      </div>
+    </div>
+
+    <script src="/build/js/index.js"></script>
+  </body>
+</html>
