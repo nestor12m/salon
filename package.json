@@ -1,0 +1,25 @@
+{
+  "name": "barberia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "barberia",
+    "sass",
+    "gulp",
+    "js"
+  ],
+  "author": "Nestor Martinez",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-webp": "^4.0.1",
+    "sass": "^1.56.0"
+  }
+}
